@@ -1,0 +1,67 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-base: white;
+    -fx-background: white;
+}
+.button {
+	-fx-background-color: #039ed3;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	/*-fx-font-size: 15px;*/
+	-fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.LoginLabel {
+	-fx-background-color: #039ed3;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size: 25px;
+	-fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.pane{
+	-fx-border-color: #039ed3;
+	/*-fx-effect: dropshadow(three-pass-box, blue, 10, 0, 0, 15);*/
+}
+
+.line{
+	-fx-stroke: #039ed3;
+	-fx-stroke-width: 1;
+}
+.specialLabel{
+	-fx-font-weight: bold;
+	 -fx-text-fill: #039ed3;
+	-fx-font-size: 20px;
+}
+.custom_Label{
+	-fx-font-weight: bold;
+	-fx-font-size: 15px;
+}
+.circle{
+	-fx-fill: #039ed3;
+}
+.circleInactive{
+	-fx-fill: #B0E0E6
+}
+.tblbutton {
+	-fx-background-color: #DCDCDC;
+	-fx-text-fill: Black;
+	-fx-font-weight: bold;
+	/*-fx-font-size: 15px;*/
+}
+.button:hover { 
+   -fx-background-color:  #09b5ef;
+	-fx-font-weight: bold;
+}
+.table-view .table-cell{
+		    -fx-font-weight:bold;
+		    -fx-font-size:12px; 
+}
+.table-view .table-column{
+    -fx-alignment:center;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0.0%, #424141 100.0%);
+}
